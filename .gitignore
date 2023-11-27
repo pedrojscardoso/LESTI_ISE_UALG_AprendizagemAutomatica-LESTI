@@ -164,3 +164,8 @@ cython_debug/
 /.idea/vcs.xml
 /.idea/AprendizagemAutomatica-LESTI.iml
 /.idea/LESTI_ISE_UALG_AprendizagemAutomatica-LESTI.iml
+/ML/.idea/ML.iml
+/ML/.idea/misc.xml
+/.idea/.name
+/ML/.idea/.gitignore
+/ML/.idea/jupyter-settings.xml
