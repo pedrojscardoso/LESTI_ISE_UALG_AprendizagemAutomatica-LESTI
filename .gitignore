@@ -169,3 +169,5 @@ cython_debug/
 /.idea/.name
 /ML/.idea/.gitignore
 /ML/.idea/jupyter-settings.xml
+.DS_Store
+ML/.idea/vcs.xml
