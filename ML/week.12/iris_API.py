@@ -1,4 +1,4 @@
-import Orange
+#import Orange
 import pickle
 import numpy as np
 from flask import Flask, jsonify, Response
@@ -26,6 +26,7 @@ app = Flask(__name__)
 # http://<host>:<port>/usage
 # returns the usage of the API
 @app.route("/usage")
+@app.route("/")
 def usage():
     return jsonify(
         {
@@ -37,13 +38,14 @@ def usage():
 # define the route which will be used to predict
 @app.route("/<a>/<b>/<c>/<d>", methods=["GET"])
 def predict(a, b, c, d):
-    # gets the values from the URL and converts them to float and creates a numpy array
+    # gets the values from the URL and converts them to float and creates a numpy array (2D array, i.e., [[...]])
     instance = np.array([[a, b, c, d]], dtype=float)
     
     # use the already trained model to predict the class for the given instance
     # we need to convert the result to a list (it is a numpy array)
-    pred = model.predict(instance).tolist()[0]
+    pred = model.predict(instance)
     logging.info(f"Prediction: {pred}")
+    pred = pred.tolist()[0]
 
     # gets the index of the class with the highest probability
     idx = np.argmax(pred)
@@ -77,6 +79,8 @@ if __name__ == "__main__":
     # run the API
     app.run(
         host='0.0.0.0',  # needed to access from outside the container
-        port=5001,  # define the port
+        port=5002,  # define the port
         debug=True # e.g., restarts the API when the code changes
     )
+
+#%%
