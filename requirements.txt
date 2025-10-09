@@ -15,7 +15,7 @@ baycomp==1.0.3
 beautifulsoup4==4.12.2
 bleach==6.0.0
 blinker==1.6.2
-Bottleneck @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_07078715-3ab7-4562-8d3d-d56b0eaa0f7dp504n_ny/croots/recipe/bottleneck_1657175566567/work
+Bottleneck
 cachetools==5.3.1
 cattrs==23.1.2
 certifi==2023.7.22
@@ -66,7 +66,7 @@ itsdangerous==2.1.2
 jaraco.classes==3.3.0
 jedi==0.19.0
 Jinja2==3.1.2
-joblib @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_a357ltg47g/croot/joblib_1685113093574/work
+joblib 
 json5==0.9.14
 jsonpointer==2.4
 jsonschema==4.19.0
@@ -106,8 +106,8 @@ networkx==3.1
 nltk==3.8.1
 notebook==7.0.3
 notebook_shim==0.2.3
-numexpr @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_76yyu1p9jk/croot/numexpr_1683221830860/work
-numpy @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_a19y8c22jc/croot/numpy_and_numpy_base_1691091616945/work
+numexpr 
+numpy 
 oauthlib==3.2.2
 opencv-python==4.8.1.78
 openpyxl==3.1.2
@@ -117,8 +117,8 @@ orange-canvas-core==0.1.32
 orange-widget-base==4.22.0
 Orange3==3.36.0
 overrides==7.4.0
-packaging @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_6dm6d4jd_t/croot/packaging_1693575176524/work
-pandas @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_b9nb2vqtpu/croot/pandas_1692289331806/work
+packaging 
+pandas 
 pandocfilters==1.5.0
 parso==0.8.3
 pexpect==4.8.0
@@ -144,10 +144,10 @@ PySide6-Addons==6.6.0
 PySide6-Essentials==6.6.0
 PySocks==1.7.1
 pysqlite3==0.5.2
-python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+python-dateutil 
 python-json-logger==2.0.7
 python-louvain==0.16
-pytz @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_c56ru3yml9/croot/pytz_1671697451306/work
+pytz 
 PyYAML==6.0.1
 pyzmq==25.1.1
 qasync==0.24.0
@@ -164,13 +164,13 @@ rfc3986-validator==0.1.1
 rpds-py==0.10.3
 rsa==4.9
 scikit-learn==1.1.3
-scipy @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_66h0hq6x34/croot/scipy_1691606685645/work/dist/scipy-1.11.1-cp310-cp310-macosx_11_0_arm64.whl#sha256=8e7cb95e568405877bb13a5700ef7a9fc939fff6851cf087d9a7e1161afbde17
+scipy 
 seaborn==0.12.2
 Send2Trash==1.8.2
 serverfiles==0.3.1
 shiboken6==6.6.0
-sip @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_fbqiv4bzwo/croots/recipe/sip_1659012372184/work
-six @ file:///tmp/build/80754af9/six_1644875935023/work
+sip 
+six 
 sklearn==0.0.post9
 sniffio==1.3.0
 soupsieve==2.5
@@ -185,15 +185,15 @@ tensorflow-metal==1.1.0
 termcolor==2.3.0
 terminado==0.17.1
 textblob==0.17.1
-threadpoolctl @ file:///Users/ktietz/demo/mc3/conda-bld/threadpoolctl_1629802263681/work
+threadpoolctl 
 tinycss2==1.2.1
-toml @ file:///tmp/build/80754af9/toml_1616166611790/work
+toml 
 tomli==2.0.1
 tornado==6.3.3
 tqdm==4.66.1
 traitlets==5.10.0
 typing_extensions==4.7.1
-tzdata @ file:///croot/python-tzdata_1690578112552/work
+tzdata 
 ucimlrepo==0.0.3
 uri-template==1.3.0
 url-normalize==1.4.3
