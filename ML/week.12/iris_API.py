@@ -7,8 +7,8 @@ import logging
 # define logging level
 logging.basicConfig(level=logging.INFO)
 
-# load model created with Orange
-model = pickle.load(open("models/model_tree.pkcls", "rb"))
+# load model created with Orange (you might need to change the path)
+model = pickle.load(open("./ML/week.12/model_tree.pkcls", "rb"))
 
 # get the classes names
 classes = model.original_domain.class_var.values # ["Iris-setosa", "Iris-versicolor", "Iris-virginica"]
